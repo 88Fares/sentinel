@@ -1,0 +1,23 @@
+{
+  "start_capital_sar": 200000,
+  "fx_ref": 3.7550,
+  "fx_cost": 0.0025,
+  "targets": {
+    "A": {"CASH": 1.0},
+    "B": {"VTI": 0.90, "SGOV": 0.10},
+    "C": {"VTI": 0.90, "SGOV": 0.10},
+    "D": {"VTI": 0.80, "SGOV": 0.10, "ACTIVE": 0.10}
+  },
+  "labels": {"A": "SAR cash baseline", "B": "Bogle Immediate", "C": "Bogle Phased", "D": "Bogle-Plus Agent"},
+  "instruments": {
+    "VTI":  {"name": "Vanguard Morningstar Total Stock Market ETF", "ccy": "USD", "exchange": "NYSE Arca", "tz": "America/New_York", "open": "09:30", "slippage": 0.0005},
+    "SGOV": {"name": "iShares 0-3 Month Treasury Bond ETF", "ccy": "USD", "exchange": "NYSE Arca", "tz": "America/New_York", "open": "09:30", "slippage": 0.0005},
+    "9412.SR": {"name": "Albilad MSCI Saudi Equity ETF", "ccy": "SAR", "exchange": "Saudi Exchange", "tz": "Asia/Riyadh", "open": "10:00", "slippage": 0.005},
+    "9413.SR": {"name": "Al Rajhi MSCI Saudi Equity ETF", "ccy": "SAR", "exchange": "Saudi Exchange", "tz": "Asia/Riyadh", "open": "10:00", "slippage": 0.005}
+  },
+  "fees": {
+    "USD": {"per_share": 0.015, "min": 1.99, "clearing_per_share": 0.003, "clearing_min": 0.01, "vat": 0.15},
+    "SAR": {"pct": 0.00174}
+  },
+  "ticker_aliases": {"9412": "9412.SR", "9413": "9413.SR"}
+}

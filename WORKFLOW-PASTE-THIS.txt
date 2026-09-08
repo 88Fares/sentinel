@@ -1,0 +1,38 @@
+name: sentinel
+on:
+  schedule:
+    # Every 30 min during US regular hours (13:30-20:00 UTC, Mon-Fri) for near-real-time quotes,
+    # plus 03:15 UTC daily (06:15 Riyadh, before the 07:00 brief) and 12:45 UTC (after the Saudi close).
+    - cron: "*/30 13-20 * * 1-5"
+    - cron: "15 3 * * *"
+    - cron: "45 12 * * *"
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: sentinel
+  cancel-in-progress: false
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install "yfinance==0.2.*" pandas
+      - name: Fetch prices and delayed quotes
+        run: python scripts/fetch_data.py
+        env:
+          FRED_API_KEY: ${{ secrets.FRED_API_KEY }}
+      - name: Auto-settle pending paper orders at verified opens
+        run: python scripts/settle_orders.py
+      - name: Recompute portfolio state for the dashboard
+        run: python scripts/compute_state.py
+      - name: Commit
+        run: |
+          git config user.name "sentinel-bot"
+          git config user.email "sentinel-bot@users.noreply.github.com"
+          git add data/ ledger/ docs/state.json
+          git diff --cached --quiet || git commit -m "sentinel run $(date -u +%Y-%m-%dT%H:%MZ)"
+          git push
