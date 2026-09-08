@@ -1,9 +1,9 @@
 {
- "generated_at_utc": "2026-09-08T12:41:06+00:00",
+ "generated_at_utc": "2026-09-08T16:52:14+00:00",
  "start_capital_sar": 200000,
  "fx": {
-  "rate": 3.755,
-  "as_of": "2026-09-08T12:40:39+00:00",
+  "rate": 3.7537,
+  "as_of": "2026-09-08T16:51:41+00:00",
   "source": "delayed quote (yahoo fast_info (delayed))"
  },
  "labels": {
@@ -46,41 +46,116 @@
   },
   "B": {
    "label": "Bogle Immediate",
-   "total_sar": 200000,
-   "cash_sar": 200000,
+   "total_sar": 198867.59,
+   "cash_sar": 4563.56,
    "contributions_sar": 0,
    "net_invested_sar": 200000,
-   "pnl_sar": 0,
-   "return_pct": 0.0,
-   "holdings": [],
+   "pnl_sar": -1132.41,
+   "return_pct": -0.566,
+   "holdings": [
+    {
+     "ticker": "VTI",
+     "name": "Vanguard Morningstar Total Stock Market ETF",
+     "qty": 123.0,
+     "price": 378.365,
+     "ccy": "USD",
+     "price_asof": "2026-09-08T16:51:41+00:00",
+     "price_source": "delayed quote (yahoo fast_info (delayed))",
+     "fx": 3.7537,
+     "value_sar": 174693.05
+    },
+    {
+     "ticker": "SGOV",
+     "name": "iShares 0-3 Month Treasury Bond ETF",
+     "qty": 52.0,
+     "price": 100.47,
+     "ccy": "USD",
+     "price_asof": "2026-09-08T16:51:41+00:00",
+     "price_source": "delayed quote (yahoo fast_info (delayed))",
+     "fx": 3.7537,
+     "value_sar": 19610.98
+    }
+   ],
    "weights": {
-    "CASH": 1.0
+    "VTI": 0.8784,
+    "SGOV": 0.0986,
+    "CASH": 0.0229
    }
   },
   "C": {
    "label": "Bogle Phased",
-   "total_sar": 200000,
-   "cash_sar": 200000,
+   "total_sar": 199425.12,
+   "cash_sar": 102983.24,
    "contributions_sar": 0,
    "net_invested_sar": 200000,
-   "pnl_sar": 0,
-   "return_pct": 0.0,
-   "holdings": [],
+   "pnl_sar": -574.88,
+   "return_pct": -0.287,
+   "holdings": [
+    {
+     "ticker": "VTI",
+     "name": "Vanguard Morningstar Total Stock Market ETF",
+     "qty": 61.0,
+     "price": 378.365,
+     "ccy": "USD",
+     "price_asof": "2026-09-08T16:51:41+00:00",
+     "price_source": "delayed quote (yahoo fast_info (delayed))",
+     "fx": 3.7537,
+     "value_sar": 86636.39
+    },
+    {
+     "ticker": "SGOV",
+     "name": "iShares 0-3 Month Treasury Bond ETF",
+     "qty": 26.0,
+     "price": 100.47,
+     "ccy": "USD",
+     "price_asof": "2026-09-08T16:51:41+00:00",
+     "price_source": "delayed quote (yahoo fast_info (delayed))",
+     "fx": 3.7537,
+     "value_sar": 9805.49
+    }
+   ],
    "weights": {
-    "CASH": 1.0
+    "VTI": 0.4344,
+    "SGOV": 0.0492,
+    "CASH": 0.5164
    }
   },
   "D": {
    "label": "Bogle-Plus Agent",
-   "total_sar": 200000,
-   "cash_sar": 200000,
+   "total_sar": 198977.35,
+   "cash_sar": 23136.81,
    "contributions_sar": 0,
    "net_invested_sar": 200000,
-   "pnl_sar": 0,
-   "return_pct": 0.0,
-   "holdings": [],
+   "pnl_sar": -1022.65,
+   "return_pct": -0.511,
+   "holdings": [
+    {
+     "ticker": "VTI",
+     "name": "Vanguard Morningstar Total Stock Market ETF",
+     "qty": 110.0,
+     "price": 378.365,
+     "ccy": "USD",
+     "price_asof": "2026-09-08T16:51:41+00:00",
+     "price_source": "delayed quote (yahoo fast_info (delayed))",
+     "fx": 3.7537,
+     "value_sar": 156229.56
+    },
+    {
+     "ticker": "SGOV",
+     "name": "iShares 0-3 Month Treasury Bond ETF",
+     "qty": 52.0,
+     "price": 100.47,
+     "ccy": "USD",
+     "price_asof": "2026-09-08T16:51:41+00:00",
+     "price_source": "delayed quote (yahoo fast_info (delayed))",
+     "fx": 3.7537,
+     "value_sar": 19610.98
+    }
+   ],
    "weights": {
-    "CASH": 1.0
+    "VTI": 0.7852,
+    "SGOV": 0.0986,
+    "CASH": 0.1163
    }
   }
  },
@@ -94,135 +169,35 @@
   "B": [
    {
     "date": "2026-09-08",
-    "total_sar": 200000
+    "total_sar": 198935.86
    }
   ],
   "C": [
    {
     "date": "2026-09-08",
-    "total_sar": 200000
+    "total_sar": 199459.01
    }
   ],
   "D": [
    {
     "date": "2026-09-08",
-    "total_sar": 200000
+    "total_sar": 199039.22
    }
   ]
  },
- "pending_orders": [
-  {
-   "transaction_id": "T0001",
-   "portfolio_id": "B",
-   "action": "BUY",
-   "ticker": "VTI",
-   "quantity": "96",
-   "order_type": "MARKET_NEXT_OPEN",
-   "limit_price": "391.12 (max price guard)",
-   "recommendation_timestamp": "2026-09-08T14:47:37+03:00",
-   "total_sar_cash_effect": "-137237.14 (est.)"
-  },
-  {
-   "transaction_id": "T0004",
-   "portfolio_id": "B",
-   "action": "BUY",
-   "ticker": "SGOV",
-   "quantity": "52",
-   "order_type": "MARKET_NEXT_OPEN",
-   "limit_price": "103.48 (max price guard)",
-   "recommendation_timestamp": "2026-09-08T14:47:37+03:00",
-   "total_sar_cash_effect": "-19676.11 (est.)"
-  },
-  {
-   "transaction_id": "T0005",
-   "portfolio_id": "C",
-   "action": "BUY",
-   "ticker": "VTI",
-   "quantity": "48",
-   "order_type": "MARKET_NEXT_OPEN",
-   "limit_price": "391.12 (max price guard)",
-   "recommendation_timestamp": "2026-09-08T14:47:37+03:00",
-   "total_sar_cash_effect": "-68622.88 (est.)"
-  },
-  {
-   "transaction_id": "T0008",
-   "portfolio_id": "C",
-   "action": "BUY",
-   "ticker": "SGOV",
-   "quantity": "26",
-   "order_type": "MARKET_NEXT_OPEN",
-   "limit_price": "103.48 (max price guard)",
-   "recommendation_timestamp": "2026-09-08T14:47:37+03:00",
-   "total_sar_cash_effect": "-9842.36 (est.)"
-  },
-  {
-   "transaction_id": "T0009",
-   "portfolio_id": "D",
-   "action": "BUY",
-   "ticker": "VTI",
-   "quantity": "83",
-   "order_type": "MARKET_NEXT_OPEN",
-   "limit_price": "391.12 (max price guard)",
-   "recommendation_timestamp": "2026-09-08T14:47:37+03:00",
-   "total_sar_cash_effect": "-118654.11 (est.)"
-  },
-  {
-   "transaction_id": "T0012",
-   "portfolio_id": "D",
-   "action": "BUY",
-   "ticker": "SGOV",
-   "quantity": "52",
-   "order_type": "MARKET_NEXT_OPEN",
-   "limit_price": "103.48 (max price guard)",
-   "recommendation_timestamp": "2026-09-08T14:47:37+03:00",
-   "total_sar_cash_effect": "-19676.11 (est.)"
-  },
-  {
-   "transaction_id": "T0013",
-   "portfolio_id": "B",
-   "action": "BUY",
-   "ticker": "VTI",
-   "quantity": "27",
-   "order_type": "MARKET_NEXT_OPEN",
-   "limit_price": "391.12 (max price guard)",
-   "recommendation_timestamp": "2026-09-08T15:06:00+03:00",
-   "total_sar_cash_effect": "-38604.14 (est.)"
-  },
-  {
-   "transaction_id": "T0014",
-   "portfolio_id": "C",
-   "action": "BUY",
-   "ticker": "VTI",
-   "quantity": "13",
-   "order_type": "MARKET_NEXT_OPEN",
-   "limit_price": "391.12 (max price guard)",
-   "recommendation_timestamp": "2026-09-08T15:06:00+03:00",
-   "total_sar_cash_effect": "-18591.64 (est.)"
-  },
-  {
-   "transaction_id": "T0015",
-   "portfolio_id": "D",
-   "action": "BUY",
-   "ticker": "VTI",
-   "quantity": "27",
-   "order_type": "MARKET_NEXT_OPEN",
-   "limit_price": "391.12 (max price guard)",
-   "recommendation_timestamp": "2026-09-08T15:06:00+03:00",
-   "total_sar_cash_effect": "-38604.14 (est.)"
-  }
- ],
+ "pending_orders": [],
  "data_freshness": {
-  "VTI": "2026-09-04",
-  "ITOT": "2026-09-04",
-  "VOO": "2026-09-04",
-  "IVV": "2026-09-04",
-  "SPYM": "2026-09-04",
-  "SCHB": "2026-09-04",
-  "SGOV": "2026-09-04",
-  "BIL": "2026-09-04",
-  "USFR": "2026-09-04",
-  "SHV": "2026-09-04",
-  "KSA": "2026-09-04",
+  "VTI": "2026-09-08",
+  "ITOT": "2026-09-08",
+  "VOO": "2026-09-08",
+  "IVV": "2026-09-08",
+  "SPYM": "2026-09-08",
+  "SCHB": "2026-09-08",
+  "SGOV": "2026-09-08",
+  "BIL": "2026-09-08",
+  "USFR": "2026-09-08",
+  "SHV": "2026-09-08",
+  "KSA": "2026-09-08",
   "9412.SR": "2026-09-08",
   "9413.SR": "2026-09-08",
   "9400.SR": "2026-09-08",
@@ -242,12 +217,12 @@
   "CL=F": "2026-09-08",
   "^TNX": "2026-09-08",
   "^IRX": "2026-09-08",
-  "MSFT": "2026-09-04",
-  "V": "2026-09-04",
-  "ISRG": "2026-09-04",
-  "COST": "2026-09-04",
-  "NVDA": "2026-09-04",
-  "LLY": "2026-09-04",
+  "MSFT": "2026-09-08",
+  "V": "2026-09-08",
+  "ISRG": "2026-09-08",
+  "COST": "2026-09-08",
+  "NVDA": "2026-09-08",
+  "LLY": "2026-09-08",
   "UST3M": "2026-09-04",
   "UST2Y": "2026-09-04",
   "UST10Y": "2026-09-04"
