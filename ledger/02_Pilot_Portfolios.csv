@@ -1,0 +1,27 @@
+as_of_timestamp,portfolio_id,market,ticker,security_name,instrument_type,currency,quantity,average_cost,current_price,market_value,sar_market_value,target_weight,current_weight,min_weight,max_weight,unrealized_result,data_source,data_timestamp
+2026-09-08T14:47:37+03:00,A,CASH,SAR_CASH,Simulated SAR cash (0% nominal; SAR MMF comparator reported separately),cash,SAR,200000,1,1,200000,200000,1.00,1.00,,,0,mandate,2026-09-08T14:47:37+03:00
+2026-09-08T14:47:37+03:00,B,CASH,SAR_CASH,Simulated SAR cash (pre-deployment; orders T0001-T0004 pending),cash,SAR,200000,1,1,200000,200000,0.00,1.00,,,0,mandate,2026-09-08T14:47:37+03:00
+2026-09-08T14:47:37+03:00,B,US,VTI,Vanguard Morningstar Total Stock Market ETF,ETF,USD,0,,379.73,0,0,0.70,0.00,0.65,0.75,0,stockanalysis.com + Yahoo Finance (official close),2026-09-04T16:00:00-04:00
+2026-09-08T14:47:37+03:00,B,SA,9412,Albilad MSCI Saudi Equity ETF,ETF,SAR,0,,9.57,0,0,0.10,0.00,0.075,0.125,0,saudiexchange.sa market watch / Investing.com (recent delayed),2026-09-08T14:35:00+03:00
+2026-09-08T14:47:37+03:00,B,SA,9413,Al Rajhi MSCI Saudi Equity ETF,ETF,SAR,0,,10.15,0,0,0.10,0.00,0.075,0.125,0,saudiexchange.sa market watch / Argaam (recent delayed),2026-09-08T14:35:00+03:00
+2026-09-08T14:47:37+03:00,B,US,SGOV,iShares 0-3 Month Treasury Bond ETF,ETF,USD,0,,100.47,0,0,0.10,0.00,0.05,0.15,0,iShares + stockanalysis.com (official close),2026-09-04T16:00:00-04:00
+2026-09-08T14:47:37+03:00,C,CASH,SAR_CASH,Simulated SAR cash (pre-deployment; orders T0005-T0008 pending; tranches 2 and 3 scheduled),cash,SAR,200000,1,1,200000,200000,0.00,1.00,,,0,mandate,2026-09-08T14:47:37+03:00
+2026-09-08T14:47:37+03:00,C,US,VTI,Vanguard Morningstar Total Stock Market ETF,ETF,USD,0,,379.73,0,0,0.70,0.00,0.65,0.75,0,stockanalysis.com + Yahoo Finance (official close),2026-09-04T16:00:00-04:00
+2026-09-08T14:47:37+03:00,C,SA,9412,Albilad MSCI Saudi Equity ETF,ETF,SAR,0,,9.57,0,0,0.10,0.00,0.075,0.125,0,saudiexchange.sa market watch / Investing.com (recent delayed),2026-09-08T14:35:00+03:00
+2026-09-08T14:47:37+03:00,C,SA,9413,Al Rajhi MSCI Saudi Equity ETF,ETF,SAR,0,,10.15,0,0,0.10,0.00,0.075,0.125,0,saudiexchange.sa market watch / Argaam (recent delayed),2026-09-08T14:35:00+03:00
+2026-09-08T14:47:37+03:00,C,US,SGOV,iShares 0-3 Month Treasury Bond ETF,ETF,USD,0,,100.47,0,0,0.10,0.00,0.05,0.15,0,iShares + stockanalysis.com (official close),2026-09-04T16:00:00-04:00
+2026-09-08T14:47:37+03:00,D,CASH,SAR_CASH,Simulated SAR cash (pre-deployment; orders T0009-T0012 pending; SAR 20000 reserved as uninvested active sleeve),cash,SAR,200000,1,1,200000,200000,0.10,1.00,,,0,mandate,2026-09-08T14:47:37+03:00
+2026-09-08T14:47:37+03:00,D,US,VTI,Vanguard Morningstar Total Stock Market ETF,ETF,USD,0,,379.73,0,0,0.60,0.00,0.55,0.65,0,stockanalysis.com + Yahoo Finance (official close),2026-09-04T16:00:00-04:00
+2026-09-08T14:47:37+03:00,D,SA,9412,Albilad MSCI Saudi Equity ETF,ETF,SAR,0,,9.57,0,0,0.10,0.00,0.075,0.125,0,saudiexchange.sa market watch / Investing.com (recent delayed),2026-09-08T14:35:00+03:00
+2026-09-08T14:47:37+03:00,D,SA,9413,Al Rajhi MSCI Saudi Equity ETF,ETF,SAR,0,,10.15,0,0,0.10,0.00,0.075,0.125,0,saudiexchange.sa market watch / Argaam (recent delayed),2026-09-08T14:35:00+03:00
+2026-09-08T14:47:37+03:00,D,US,SGOV,iShares 0-3 Month Treasury Bond ETF,ETF,USD,0,,100.47,0,0,0.10,0.00,0.05,0.15,0,iShares + stockanalysis.com (official close),2026-09-04T16:00:00-04:00
+2026-09-08T15:06:00+03:00,A,CASH,SAR_CASH,Simulated SAR cash (0% nominal; SAR MMF comparator reported separately),cash,SAR,200000,1,1,200000,200000,1.00,1.00,,,0,mandate,2026-09-08T15:06:00+03:00
+2026-09-08T15:06:00+03:00,B,CASH,SAR_CASH,"Simulated SAR cash (pre-deployment; orders T0001,T0004,T0013 pending; AM-001 applied)",cash,SAR,200000,1,1,200000,200000,0.00,1.00,,,0,mandate,2026-09-08T15:06:00+03:00
+2026-09-08T15:06:00+03:00,B,US,VTI,Vanguard Morningstar Total Stock Market ETF,ETF,USD,0,,379.73,0,0,0.90,0.00,0.85,0.95,0,stockanalysis.com + Yahoo Finance (official close),2026-09-04T16:00:00-04:00
+2026-09-08T15:06:00+03:00,B,US,SGOV,iShares 0-3 Month Treasury Bond ETF,ETF,USD,0,,100.47,0,0,0.10,0.00,0.05,0.15,0,iShares + stockanalysis.com (official close),2026-09-04T16:00:00-04:00
+2026-09-08T15:06:00+03:00,C,CASH,SAR_CASH,"Simulated SAR cash (pre-deployment; orders T0005,T0008,T0014 pending; tranches 2-3 scheduled; AM-001 applied)",cash,SAR,200000,1,1,200000,200000,0.00,1.00,,,0,mandate,2026-09-08T15:06:00+03:00
+2026-09-08T15:06:00+03:00,C,US,VTI,Vanguard Morningstar Total Stock Market ETF,ETF,USD,0,,379.73,0,0,0.90,0.00,0.85,0.95,0,stockanalysis.com + Yahoo Finance (official close),2026-09-04T16:00:00-04:00
+2026-09-08T15:06:00+03:00,C,US,SGOV,iShares 0-3 Month Treasury Bond ETF,ETF,USD,0,,100.47,0,0,0.10,0.00,0.05,0.15,0,iShares + stockanalysis.com (official close),2026-09-04T16:00:00-04:00
+2026-09-08T15:06:00+03:00,D,CASH,SAR_CASH,"Simulated SAR cash (pre-deployment; orders T0009,T0012,T0015 pending; SAR 20000 reserved as uninvested active sleeve; AM-001 applied)",cash,SAR,200000,1,1,200000,200000,0.10,1.00,,,0,mandate,2026-09-08T15:06:00+03:00
+2026-09-08T15:06:00+03:00,D,US,VTI,Vanguard Morningstar Total Stock Market ETF,ETF,USD,0,,379.73,0,0,0.80,0.00,0.75,0.85,0,stockanalysis.com + Yahoo Finance (official close),2026-09-04T16:00:00-04:00
+2026-09-08T15:06:00+03:00,D,US,SGOV,iShares 0-3 Month Treasury Bond ETF,ETF,USD,0,,100.47,0,0,0.10,0.00,0.05,0.15,0,iShares + stockanalysis.com (official close),2026-09-04T16:00:00-04:00

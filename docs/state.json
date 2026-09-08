@@ -1,0 +1,215 @@
+{
+ "generated_at_utc": "2026-09-08T12:10:03+00:00",
+ "start_capital_sar": 200000,
+ "fx": {
+  "rate": 3.755,
+  "as_of": null,
+  "source": "config fx_ref"
+ },
+ "labels": {
+  "A": "SAR cash baseline",
+  "B": "Bogle Immediate",
+  "C": "Bogle Phased",
+  "D": "Bogle-Plus Agent"
+ },
+ "targets": {
+  "A": {
+   "CASH": 1.0
+  },
+  "B": {
+   "VTI": 0.9,
+   "SGOV": 0.1
+  },
+  "C": {
+   "VTI": 0.9,
+   "SGOV": 0.1
+  },
+  "D": {
+   "VTI": 0.8,
+   "SGOV": 0.1,
+   "ACTIVE": 0.1
+  }
+ },
+ "portfolios": {
+  "A": {
+   "label": "SAR cash baseline",
+   "total_sar": 200000,
+   "cash_sar": 200000,
+   "contributions_sar": 0,
+   "net_invested_sar": 200000,
+   "pnl_sar": 0,
+   "return_pct": 0.0,
+   "holdings": [],
+   "weights": {
+    "CASH": 1.0
+   }
+  },
+  "B": {
+   "label": "Bogle Immediate",
+   "total_sar": 200000,
+   "cash_sar": 200000,
+   "contributions_sar": 0,
+   "net_invested_sar": 200000,
+   "pnl_sar": 0,
+   "return_pct": 0.0,
+   "holdings": [],
+   "weights": {
+    "CASH": 1.0
+   }
+  },
+  "C": {
+   "label": "Bogle Phased",
+   "total_sar": 200000,
+   "cash_sar": 200000,
+   "contributions_sar": 0,
+   "net_invested_sar": 200000,
+   "pnl_sar": 0,
+   "return_pct": 0.0,
+   "holdings": [],
+   "weights": {
+    "CASH": 1.0
+   }
+  },
+  "D": {
+   "label": "Bogle-Plus Agent",
+   "total_sar": 200000,
+   "cash_sar": 200000,
+   "contributions_sar": 0,
+   "net_invested_sar": 200000,
+   "pnl_sar": 0,
+   "return_pct": 0.0,
+   "holdings": [],
+   "weights": {
+    "CASH": 1.0
+   }
+  }
+ },
+ "history": {
+  "A": [
+   {
+    "date": "2026-09-08",
+    "total_sar": 200000
+   }
+  ],
+  "B": [
+   {
+    "date": "2026-09-08",
+    "total_sar": 200000
+   }
+  ],
+  "C": [
+   {
+    "date": "2026-09-08",
+    "total_sar": 200000
+   }
+  ],
+  "D": [
+   {
+    "date": "2026-09-08",
+    "total_sar": 200000
+   }
+  ]
+ },
+ "pending_orders": [
+  {
+   "transaction_id": "T0001",
+   "portfolio_id": "B",
+   "action": "BUY",
+   "ticker": "VTI",
+   "quantity": "96",
+   "order_type": "MARKET_NEXT_OPEN",
+   "limit_price": "391.12 (max price guard)",
+   "recommendation_timestamp": "2026-09-08T14:47:37+03:00",
+   "total_sar_cash_effect": "-137237.14 (est.)"
+  },
+  {
+   "transaction_id": "T0004",
+   "portfolio_id": "B",
+   "action": "BUY",
+   "ticker": "SGOV",
+   "quantity": "52",
+   "order_type": "MARKET_NEXT_OPEN",
+   "limit_price": "103.48 (max price guard)",
+   "recommendation_timestamp": "2026-09-08T14:47:37+03:00",
+   "total_sar_cash_effect": "-19676.11 (est.)"
+  },
+  {
+   "transaction_id": "T0005",
+   "portfolio_id": "C",
+   "action": "BUY",
+   "ticker": "VTI",
+   "quantity": "48",
+   "order_type": "MARKET_NEXT_OPEN",
+   "limit_price": "391.12 (max price guard)",
+   "recommendation_timestamp": "2026-09-08T14:47:37+03:00",
+   "total_sar_cash_effect": "-68622.88 (est.)"
+  },
+  {
+   "transaction_id": "T0008",
+   "portfolio_id": "C",
+   "action": "BUY",
+   "ticker": "SGOV",
+   "quantity": "26",
+   "order_type": "MARKET_NEXT_OPEN",
+   "limit_price": "103.48 (max price guard)",
+   "recommendation_timestamp": "2026-09-08T14:47:37+03:00",
+   "total_sar_cash_effect": "-9842.36 (est.)"
+  },
+  {
+   "transaction_id": "T0009",
+   "portfolio_id": "D",
+   "action": "BUY",
+   "ticker": "VTI",
+   "quantity": "83",
+   "order_type": "MARKET_NEXT_OPEN",
+   "limit_price": "391.12 (max price guard)",
+   "recommendation_timestamp": "2026-09-08T14:47:37+03:00",
+   "total_sar_cash_effect": "-118654.11 (est.)"
+  },
+  {
+   "transaction_id": "T0012",
+   "portfolio_id": "D",
+   "action": "BUY",
+   "ticker": "SGOV",
+   "quantity": "52",
+   "order_type": "MARKET_NEXT_OPEN",
+   "limit_price": "103.48 (max price guard)",
+   "recommendation_timestamp": "2026-09-08T14:47:37+03:00",
+   "total_sar_cash_effect": "-19676.11 (est.)"
+  },
+  {
+   "transaction_id": "T0013",
+   "portfolio_id": "B",
+   "action": "BUY",
+   "ticker": "VTI",
+   "quantity": "27",
+   "order_type": "MARKET_NEXT_OPEN",
+   "limit_price": "391.12 (max price guard)",
+   "recommendation_timestamp": "2026-09-08T15:06:00+03:00",
+   "total_sar_cash_effect": "-38604.14 (est.)"
+  },
+  {
+   "transaction_id": "T0014",
+   "portfolio_id": "C",
+   "action": "BUY",
+   "ticker": "VTI",
+   "quantity": "13",
+   "order_type": "MARKET_NEXT_OPEN",
+   "limit_price": "391.12 (max price guard)",
+   "recommendation_timestamp": "2026-09-08T15:06:00+03:00",
+   "total_sar_cash_effect": "-18591.64 (est.)"
+  },
+  {
+   "transaction_id": "T0015",
+   "portfolio_id": "D",
+   "action": "BUY",
+   "ticker": "VTI",
+   "quantity": "27",
+   "order_type": "MARKET_NEXT_OPEN",
+   "limit_price": "391.12 (max price guard)",
+   "recommendation_timestamp": "2026-09-08T15:06:00+03:00",
+   "total_sar_cash_effect": "-38604.14 (est.)"
+  }
+ ],
+ "data_freshness": {}
+}

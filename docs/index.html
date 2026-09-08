@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Portfolio Sentinel</title>
+<style>
+  :root { color-scheme: light dark;
+    --bg:#f6f7f9; --card:#ffffff; --ink:#15181d; --muted:#6b7280; --line:#e5e7eb; --accent:#1f5eff; --up:#0f7b4f; --down:#b42318; --warn:#b45309; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#0f1115; --card:#171a21; --ink:#e7e9ee; --muted:#9aa3b2; --line:#272b35; --accent:#7aa2ff; --up:#3ccf8e; --down:#ff7a6e; --warn:#f2b155; } }
+  * { box-sizing:border-box } body { margin:0; background:var(--bg); color:var(--ink); font:14px/1.45 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif; }
+  header { padding:28px 24px 8px; max-width:1100px; margin:0 auto }
+  h1 { margin:0; font-size:22px; letter-spacing:-.01em } .sub { color:var(--muted); margin-top:4px }
+  main { max-width:1100px; margin:0 auto; padding:8px 24px 48px; display:grid; gap:16px }
+  .tiles { display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:12px }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:12px; padding:16px }
+  .tile .k { color:var(--muted); font-size:12px; text-transform:uppercase; letter-spacing:.06em }
+  .tile .v { font-size:24px; font-weight:600; margin:4px 0 2px; font-variant-numeric:tabular-nums }
+  .tile .d { font-size:13px; font-variant-numeric:tabular-nums } .up{color:var(--up)} .down{color:var(--down)} .muted{color:var(--muted)}
+  h2 { font-size:15px; margin:0 0 10px } table { width:100%; border-collapse:collapse; font-variant-numeric:tabular-nums }
+  th,td { text-align:left; padding:7px 8px; border-bottom:1px solid var(--line); vertical-align:top } th { color:var(--muted); font-weight:500; font-size:12px }
+  td.n,th.n { text-align:right } .wrap { overflow-x:auto }
+  .bar { height:8px; background:var(--line); border-radius:4px; position:relative; margin-top:4px } .bar i { position:absolute; left:0; top:0; bottom:0; background:var(--accent); border-radius:4px } .bar b { position:absolute; top:-3px; width:2px; height:14px; background:var(--ink); opacity:.6 }
+  svg text { fill:var(--muted); font-size:11px } .legend span { display:inline-block; margin-right:14px; font-size:12px } .legend i { display:inline-block; width:10px; height:10px; border-radius:2px; margin-right:5px; vertical-align:-1px }
+  .pill { display:inline-block; padding:2px 8px; border-radius:999px; font-size:12px; border:1px solid var(--line) } .banner { border-left:3px solid var(--warn); }
+  footer { max-width:1100px; margin:0 auto; padding:0 24px 40px; color:var(--muted); font-size:12px }
+</style>
+</head>
+<body>
+<header>
+  <h1>Portfolio Sentinel <span class="pill">simulation only</span></h1>
+  <div class="sub" id="asof">Loading state.json…</div>
+</header>
+<main>
+  <section class="card banner" id="pending" hidden></section>
+  <section class="tiles" id="tiles"></section>
+  <section class="card"><h2>Value since 8 Sep 2026 (SAR)</h2><div id="chart"></div><div class="legend" id="legend"></div></section>
+  <section class="card"><h2>Holdings and weights vs target</h2><div class="wrap"><table id="holdings"><thead><tr><th>Portfolio</th><th>Holding</th><th class="n">Qty</th><th class="n">Price</th><th>Price as of</th><th class="n">Value (SAR)</th><th style="width:22%">Weight vs target</th></tr></thead><tbody></tbody></table></div></section>
+  <section class="card"><h2>Data freshness</h2><div id="fresh" class="muted"></div></section>
+</main>
+<footer>Paper-trading simulation for a Bogle-style portfolio. Prices are delayed (Yahoo Finance); fills use dated session opens only. Nothing here is a real position, a recommendation, or financial advice.</footer>
+<script>
+const fmt = n => new Intl.NumberFormat('en-US',{maximumFractionDigits:0}).format(n);
+const fmt2 = n => new Intl.NumberFormat('en-US',{minimumFractionDigits:2,maximumFractionDigits:2}).format(n);
+const colors = {A:'#8a8f98',B:'#1f5eff',C:'#12a58a',D:'#e07b1a'};
+fetch('state.json?ts='+Date.now()).then(r=>r.json()).then(s=>{
+  document.getElementById('asof').textContent = `State generated ${s.generated_at_utc.replace('T',' ').replace('+00:00',' UTC')} · USD/SAR ${s.fx.rate} (${s.fx.source}${s.fx.as_of?', '+s.fx.as_of:''})`;
+  // tiles
+  const tiles = document.getElementById('tiles');
+  for (const p of ['A','B','C','D']) {
+    const x = s.portfolios[p]; const up = x.pnl_sar >= 0;
+    tiles.insertAdjacentHTML('beforeend', `<div class="card tile"><div class="k">${p} · ${x.label}</div><div class="v">SAR ${fmt(x.total_sar)}</div><div class="d ${up?'up':'down'}">${up?'+':''}${fmt2(x.pnl_sar)} (${x.return_pct.toFixed(2)}%)</div><div class="d muted">cash ${fmt(x.cash_sar)} · invested ${fmt(x.net_invested_sar)}</div></div>`);
+  }
+  // pending banner
+  if (s.pending_orders.length) {
+    const el = document.getElementById('pending'); el.hidden = false;
+    el.innerHTML = `<h2>${s.pending_orders.length} pending paper order(s) — fill at the next verified session open</h2>` +
+      s.pending_orders.map(o=>`<span class="pill">${o.transaction_id} · ${o.portfolio_id} · ${o.action} ${o.quantity} ${o.ticker} · rec ${o.recommendation_timestamp.slice(0,16).replace('T',' ')}</span> `).join('');
+  }
+  // chart
+  const W=1000,H=260,PL=64,PR=12,PT=12,PB=28; const ds = s.history.B.map(h=>h.date);
+  const all = ['A','B','C','D'].flatMap(p=>s.history[p].map(h=>h.total_sar)); let lo=Math.min(...all), hi=Math.max(...all); if(hi-lo<2000){const m=(hi+lo)/2;lo=m-1000;hi=m+1000;} const pad=(hi-lo)*.08; lo-=pad; hi+=pad;
+  const X=i=>PL+(ds.length>1?i/(ds.length-1):0.5)*(W-PL-PR), Y=v=>PT+(1-(v-lo)/(hi-lo))*(H-PT-PB);
+  let g=`<svg viewBox="0 0 ${W} ${H}" width="100%" preserveAspectRatio="none" style="display:block;max-height:280px">`;
+  for(let k=0;k<=4;k++){const v=lo+(hi-lo)*k/4;g+=`<line x1="${PL}" x2="${W-PR}" y1="${Y(v)}" y2="${Y(v)}" stroke="currentColor" opacity=".12"/><text x="${PL-8}" y="${Y(v)+4}" text-anchor="end">${fmt(v)}</text>`;}
+  ds.forEach((d,i)=>{ if(i%Math.max(1,Math.floor(ds.length/8))===0||i===ds.length-1) g+=`<text x="${X(i)}" y="${H-8}" text-anchor="middle">${d.slice(5)}</text>`; });
+  for (const p of ['A','B','C','D']) { const pts=s.history[p].map((h,i)=>`${X(i)},${Y(h.total_sar)}`).join(' '); g+=`<polyline fill="none" stroke="${colors[p]}" stroke-width="2" points="${pts}"/>`; }
+  g+='</svg>'; document.getElementById('chart').innerHTML=g;
+  document.getElementById('legend').innerHTML=['A','B','C','D'].map(p=>`<span><i style="background:${colors[p]}"></i>${p} ${s.labels[p]}</span>`).join('');
+  // holdings
+  const tb=document.querySelector('#holdings tbody');
+  for (const p of ['A','B','C','D']) {
+    const x=s.portfolios[p]; const rows=[...x.holdings.map(h=>({...h})), {ticker:'CASH',name:'SAR cash',qty:'',price:'',price_asof:'',value_sar:x.cash_sar}];
+    for (const h of rows) { const w=x.weights[h.ticker]??0; const t=(s.targets[p][h.ticker]??(h.ticker==='CASH'?(s.targets[p].ACTIVE??0)+(s.targets[p].CASH??0):0));
+      tb.insertAdjacentHTML('beforeend',`<tr><td>${p}</td><td>${h.ticker}<div class="muted">${h.name}</div></td><td class="n">${h.qty}</td><td class="n">${h.price?fmt2(h.price)+' '+h.ccy:''}</td><td class="muted">${h.price_asof?h.price_asof.slice(0,16).replace('T',' ')+'<br>'+h.price_source:''}</td><td class="n">${fmt(h.value_sar)}</td><td>${(w*100).toFixed(1)}% <span class="muted">/ target ${(t*100).toFixed(0)}%</span><div class="bar"><i style="width:${Math.min(100,w*100)}%"></i><b style="left:${Math.min(100,t*100)}%"></b></div></td></tr>`); }
+  }
+  document.getElementById('fresh').innerHTML = Object.entries(s.data_freshness).map(([k,v])=>`<span class="pill">${k}: ${v||'none'}</span>`).join(' ') || 'No price rows yet — run the workflow once.';
+}).catch(e=>{document.getElementById('asof').textContent='Could not load state.json: '+e;});
+</script>
+</body>
+</html>
