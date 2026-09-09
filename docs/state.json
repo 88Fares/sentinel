@@ -1,9 +1,9 @@
 {
- "generated_at_utc": "2026-09-09T17:06:41+00:00",
+ "generated_at_utc": "2026-09-09T19:59:22+00:00",
  "start_capital_sar": 200000,
  "fx": {
   "rate": 3.7548,
-  "as_of": "2026-09-09T17:06:09+00:00",
+  "as_of": "2026-09-09T19:58:49+00:00",
   "source": "delayed quote (yahoo fast_info (delayed))"
  },
  "labels": {
@@ -46,23 +46,23 @@
   },
   "B": {
    "label": "Bogle Immediate",
-   "total_sar": 197747.91,
+   "total_sar": 197643.99,
    "cash_sar": 4563.56,
    "contributions_sar": 0,
    "net_invested_sar": 200000,
-   "pnl_sar": -2252.09,
-   "return_pct": -1.126,
+   "pnl_sar": -2356.01,
+   "return_pct": -1.178,
    "holdings": [
     {
      "ticker": "VTI",
      "name": "Vanguard Morningstar Total Stock Market ETF",
      "qty": 123.0,
-     "price": 375.81,
+     "price": 375.585,
      "ccy": "USD",
-     "price_asof": "2026-09-09T17:06:09+00:00",
+     "price_asof": "2026-09-09T19:58:49+00:00",
      "price_source": "delayed quote (yahoo fast_info (delayed))",
      "fx": 3.7548,
-     "value_sar": 173564.24
+     "value_sar": 173460.33
     },
     {
      "ticker": "SGOV",
@@ -70,37 +70,37 @@
      "qty": 52.0,
      "price": 100.4873,
      "ccy": "USD",
-     "price_asof": "2026-09-09T17:06:09+00:00",
+     "price_asof": "2026-09-09T19:58:49+00:00",
      "price_source": "delayed quote (yahoo fast_info (delayed))",
      "fx": 3.7548,
      "value_sar": 19620.11
     }
    ],
    "weights": {
-    "VTI": 0.8777,
-    "SGOV": 0.0992,
+    "VTI": 0.8776,
+    "SGOV": 0.0993,
     "CASH": 0.0231
    }
   },
   "C": {
    "label": "Bogle Phased",
-   "total_sar": 198869.87,
+   "total_sar": 198818.33,
    "cash_sar": 102983.24,
    "contributions_sar": 0,
    "net_invested_sar": 200000,
-   "pnl_sar": -1130.13,
-   "return_pct": -0.565,
+   "pnl_sar": -1181.67,
+   "return_pct": -0.591,
    "holdings": [
     {
      "ticker": "VTI",
      "name": "Vanguard Morningstar Total Stock Market ETF",
      "qty": 61.0,
-     "price": 375.81,
+     "price": 375.585,
      "ccy": "USD",
-     "price_asof": "2026-09-09T17:06:09+00:00",
+     "price_asof": "2026-09-09T19:58:49+00:00",
      "price_source": "delayed quote (yahoo fast_info (delayed))",
      "fx": 3.7548,
-     "value_sar": 86076.57
+     "value_sar": 86025.04
     },
     {
      "ticker": "SGOV",
@@ -108,37 +108,37 @@
      "qty": 26.0,
      "price": 100.4873,
      "ccy": "USD",
-     "price_asof": "2026-09-09T17:06:09+00:00",
+     "price_asof": "2026-09-09T19:58:49+00:00",
      "price_source": "delayed quote (yahoo fast_info (delayed))",
      "fx": 3.7548,
      "value_sar": 9810.05
     }
    ],
    "weights": {
-    "VTI": 0.4328,
+    "VTI": 0.4327,
     "SGOV": 0.0493,
-    "CASH": 0.5178
+    "CASH": 0.518
    }
   },
   "D": {
    "label": "Bogle-Plus Agent",
-   "total_sar": 197976.97,
+   "total_sar": 197884.04,
    "cash_sar": 23136.81,
    "contributions_sar": 0,
    "net_invested_sar": 200000,
-   "pnl_sar": -2023.03,
-   "return_pct": -1.012,
+   "pnl_sar": -2115.96,
+   "return_pct": -1.058,
    "holdings": [
     {
      "ticker": "VTI",
      "name": "Vanguard Morningstar Total Stock Market ETF",
      "qty": 110.0,
-     "price": 375.81,
+     "price": 375.585,
      "ccy": "USD",
-     "price_asof": "2026-09-09T17:06:09+00:00",
+     "price_asof": "2026-09-09T19:58:49+00:00",
      "price_source": "delayed quote (yahoo fast_info (delayed))",
      "fx": 3.7548,
-     "value_sar": 155220.05
+     "value_sar": 155127.12
     },
     {
      "ticker": "SGOV",
@@ -146,14 +146,14 @@
      "qty": 52.0,
      "price": 100.4873,
      "ccy": "USD",
-     "price_asof": "2026-09-09T17:06:09+00:00",
+     "price_asof": "2026-09-09T19:58:49+00:00",
      "price_source": "delayed quote (yahoo fast_info (delayed))",
      "fx": 3.7548,
      "value_sar": 19620.11
     }
    ],
    "weights": {
-    "VTI": 0.784,
+    "VTI": 0.7839,
     "SGOV": 0.0991,
     "CASH": 0.1169
    }
@@ -239,8 +239,8 @@
   "COST": "2026-09-09",
   "NVDA": "2026-09-09",
   "LLY": "2026-09-09",
-  "UST3M": "2026-09-08",
-  "UST2Y": "2026-09-08",
-  "UST10Y": "2026-09-08"
+  "UST3M": "2026-09-09",
+  "UST2Y": "2026-09-09",
+  "UST10Y": "2026-09-09"
  }
 }
