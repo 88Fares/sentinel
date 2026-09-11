@@ -1,5 +1,5 @@
 {
- "generated_at_utc": "2026-09-11T19:35:30+00:00",
+ "generated_at_utc": "2026-09-11T22:24:51+00:00",
  "latest": {
   "VTI": {
    "date": "2026-09-11",
@@ -254,25 +254,25 @@
    "fetched_at_utc": "2026-09-11T16:46:25+00:00"
   },
   "UST3M": {
-   "date": "2026-09-10",
+   "date": "2026-09-11",
    "open": "",
-   "close": "4.00",
+   "close": "4.07",
    "source": "us_treasury",
-   "fetched_at_utc": "2026-09-10T22:25:15+00:00"
+   "fetched_at_utc": "2026-09-11T22:24:51+00:00"
   },
   "UST2Y": {
-   "date": "2026-09-10",
+   "date": "2026-09-11",
    "open": "",
-   "close": "4.56",
+   "close": "4.63",
    "source": "us_treasury",
-   "fetched_at_utc": "2026-09-10T22:25:15+00:00"
+   "fetched_at_utc": "2026-09-11T22:24:51+00:00"
   },
   "UST10Y": {
-   "date": "2026-09-10",
+   "date": "2026-09-11",
    "open": "",
-   "close": "4.95",
+   "close": "4.96",
    "source": "us_treasury",
-   "fetched_at_utc": "2026-09-10T22:25:15+00:00"
+   "fetched_at_utc": "2026-09-11T22:24:51+00:00"
   }
  }
 }
