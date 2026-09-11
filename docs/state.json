@@ -1,9 +1,9 @@
 {
- "generated_at_utc": "2026-09-10T22:25:52+00:00",
+ "generated_at_utc": "2026-09-11T08:01:35+00:00",
  "start_capital_sar": 200000,
  "fx": {
-  "rate": 3.7535,
-  "as_of": "2026-09-10T22:25:15+00:00",
+  "rate": 3.7548,
+  "as_of": "2026-09-11T08:00:57+00:00",
   "source": "delayed quote (yahoo fast_info (delayed))"
  },
  "labels": {
@@ -46,12 +46,12 @@
   },
   "B": {
    "label": "Bogle Immediate",
-   "total_sar": 196496.98,
+   "total_sar": 196563.46,
    "cash_sar": 4563.56,
    "contributions_sar": 0,
    "net_invested_sar": 200000,
-   "pnl_sar": -3503.02,
-   "return_pct": -1.752,
+   "pnl_sar": -3436.54,
+   "return_pct": -1.718,
    "holdings": [
     {
      "ticker": "VTI",
@@ -59,10 +59,10 @@
      "qty": 123.0,
      "price": 373.24,
      "ccy": "USD",
-     "price_asof": "2026-09-10T22:25:15+00:00",
+     "price_asof": "2026-09-11T08:00:57+00:00",
      "price_source": "delayed quote (yahoo fast_info (delayed))",
-     "fx": 3.7535,
-     "value_sar": 172317.63
+     "fx": 3.7548,
+     "value_sar": 172377.31
     },
     {
      "ticker": "SGOV",
@@ -70,26 +70,26 @@
      "qty": 52.0,
      "price": 100.5,
      "ccy": "USD",
-     "price_asof": "2026-09-10T22:25:15+00:00",
+     "price_asof": "2026-09-11T08:00:57+00:00",
      "price_source": "delayed quote (yahoo fast_info (delayed))",
-     "fx": 3.7535,
-     "value_sar": 19615.79
+     "fx": 3.7548,
+     "value_sar": 19622.58
     }
    ],
    "weights": {
-    "VTI": 0.8769,
+    "VTI": 0.877,
     "SGOV": 0.0998,
     "CASH": 0.0232
    }
   },
   "C": {
    "label": "Bogle Phased",
-   "total_sar": 198249.47,
+   "total_sar": 198282.47,
    "cash_sar": 102983.24,
    "contributions_sar": 0,
    "net_invested_sar": 200000,
-   "pnl_sar": -1750.53,
-   "return_pct": -0.875,
+   "pnl_sar": -1717.53,
+   "return_pct": -0.859,
    "holdings": [
     {
      "ticker": "VTI",
@@ -97,10 +97,10 @@
      "qty": 61.0,
      "price": 373.24,
      "ccy": "USD",
-     "price_asof": "2026-09-10T22:25:15+00:00",
+     "price_asof": "2026-09-11T08:00:57+00:00",
      "price_source": "delayed quote (yahoo fast_info (delayed))",
-     "fx": 3.7535,
-     "value_sar": 85458.34
+     "fx": 3.7548,
+     "value_sar": 85487.93
     },
     {
      "ticker": "SGOV",
@@ -108,26 +108,26 @@
      "qty": 26.0,
      "price": 100.5,
      "ccy": "USD",
-     "price_asof": "2026-09-10T22:25:15+00:00",
+     "price_asof": "2026-09-11T08:00:57+00:00",
      "price_source": "delayed quote (yahoo fast_info (delayed))",
-     "fx": 3.7535,
-     "value_sar": 9807.9
+     "fx": 3.7548,
+     "value_sar": 9811.29
     }
    ],
    "weights": {
     "VTI": 0.4311,
     "SGOV": 0.0495,
-    "CASH": 0.5195
+    "CASH": 0.5194
    }
   },
   "D": {
    "label": "Bogle-Plus Agent",
-   "total_sar": 196857.8,
+   "total_sar": 196917.97,
    "cash_sar": 23136.81,
    "contributions_sar": 0,
    "net_invested_sar": 200000,
-   "pnl_sar": -3142.2,
-   "return_pct": -1.571,
+   "pnl_sar": -3082.03,
+   "return_pct": -1.541,
    "holdings": [
     {
      "ticker": "VTI",
@@ -135,10 +135,10 @@
      "qty": 110.0,
      "price": 373.24,
      "ccy": "USD",
-     "price_asof": "2026-09-10T22:25:15+00:00",
+     "price_asof": "2026-09-11T08:00:57+00:00",
      "price_source": "delayed quote (yahoo fast_info (delayed))",
-     "fx": 3.7535,
-     "value_sar": 154105.2
+     "fx": 3.7548,
+     "value_sar": 154158.57
     },
     {
      "ticker": "SGOV",
@@ -146,14 +146,14 @@
      "qty": 52.0,
      "price": 100.5,
      "ccy": "USD",
-     "price_asof": "2026-09-10T22:25:15+00:00",
+     "price_asof": "2026-09-11T08:00:57+00:00",
      "price_source": "delayed quote (yahoo fast_info (delayed))",
-     "fx": 3.7535,
-     "value_sar": 19615.79
+     "fx": 3.7548,
+     "value_sar": 19622.58
     }
    ],
    "weights": {
-    "VTI": 0.7828,
+    "VTI": 0.7829,
     "SGOV": 0.0996,
     "CASH": 0.1175
    }
@@ -172,6 +172,10 @@
    {
     "date": "2026-09-10",
     "total_sar": 200000
+   },
+   {
+    "date": "2026-09-11",
+    "total_sar": 200000
    }
   ],
   "B": [
@@ -186,6 +190,10 @@
    {
     "date": "2026-09-10",
     "total_sar": 196731.9
+   },
+   {
+    "date": "2026-09-11",
+    "total_sar": 196737.02
    }
   ],
   "C": [
@@ -200,6 +208,10 @@
    {
     "date": "2026-09-10",
     "total_sar": 198366.0
+   },
+   {
+    "date": "2026-09-11",
+    "total_sar": 198368.54
    }
   ],
   "D": [
@@ -214,6 +226,10 @@
    {
     "date": "2026-09-10",
     "total_sar": 197068.35
+   },
+   {
+    "date": "2026-09-11",
+    "total_sar": 197072.98
    }
   ]
  },
@@ -244,9 +260,9 @@
   "4013.SR": "2026-09-10",
   "2280.SR": "2026-09-10",
   "4190.SR": "2026-09-10",
-  "SAR=X": "2026-09-10",
-  "BZ=F": "2026-09-10",
-  "CL=F": "2026-09-10",
+  "SAR=X": "2026-09-11",
+  "BZ=F": "2026-09-11",
+  "CL=F": "2026-09-11",
   "^TNX": "2026-09-10",
   "^IRX": "2026-09-10",
   "MSFT": "2026-09-10",
