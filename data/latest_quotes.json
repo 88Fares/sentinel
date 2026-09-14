@@ -1,47 +1,47 @@
 {
- "generated_at_utc": "2026-09-13T16:38:43+00:00",
+ "generated_at_utc": "2026-09-14T08:51:37+00:00",
  "quotes": {
   "VTI": {
    "price": 376.31,
-   "as_of_utc": "2026-09-13T16:38:43+00:00",
+   "as_of_utc": "2026-09-14T08:51:37+00:00",
    "source": "yahoo fast_info (delayed)",
-   "prev_close": 373.23
+   "prev_close": 376.46
   },
   "SGOV": {
    "price": 100.52,
-   "as_of_utc": "2026-09-13T16:38:43+00:00",
+   "as_of_utc": "2026-09-14T08:51:37+00:00",
    "source": "yahoo fast_info (delayed)",
-   "prev_close": 100.4815
+   "prev_close": 100.515
   },
   "SAR=X": {
-   "price": 3.7555,
-   "as_of_utc": "2026-09-13T16:38:43+00:00",
+   "price": 3.7556,
+   "as_of_utc": "2026-09-14T08:51:37+00:00",
    "source": "yahoo fast_info (delayed)",
-   "prev_close": 3.755000114440918
+   "prev_close": 3.755500078201294
   },
   "9412.SR": {
-   "price": 9.48,
-   "as_of_utc": "2026-09-13T16:38:43+00:00",
+   "price": 9.43,
+   "as_of_utc": "2026-09-14T08:51:37+00:00",
    "source": "yahoo fast_info (delayed)",
-   "prev_close": 9.5600004196167
+   "prev_close": 9.479999542236328
   },
   "9413.SR": {
-   "price": 10.11,
-   "as_of_utc": "2026-09-13T16:38:43+00:00",
+   "price": 10.08,
+   "as_of_utc": "2026-09-14T08:51:37+00:00",
    "source": "yahoo fast_info (delayed)",
-   "prev_close": 10.220000267028809
+   "prev_close": 10.109999656677246
   },
   "^TASI.SR": {
-   "price": 10864.5703,
-   "as_of_utc": "2026-09-13T16:38:43+00:00",
+   "price": 10873.79,
+   "as_of_utc": "2026-09-14T08:51:37+00:00",
    "source": "yahoo fast_info (delayed)",
-   "prev_close": 10997.009765625
+   "prev_close": 10875.7197265625
   },
   "BZ=F": {
-   "price": 104.61,
-   "as_of_utc": "2026-09-13T16:38:43+00:00",
+   "price": 107.91,
+   "as_of_utc": "2026-09-14T08:51:37+00:00",
    "source": "yahoo fast_info (delayed)",
-   "prev_close": 108.51000213623047
+   "prev_close": 107.87999725341797
   }
  }
 }
