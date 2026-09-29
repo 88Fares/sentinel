@@ -1,9 +1,9 @@
 {
- "generated_at_utc": "2026-09-29T09:46:44+00:00",
+ "generated_at_utc": "2026-09-29T18:18:20+00:00",
  "start_capital_sar": 200000,
  "fx": {
-  "rate": 3.7545,
-  "as_of": "2026-09-29T09:46:16+00:00",
+  "rate": 3.7548,
+  "as_of": "2026-09-29T18:17:46+00:00",
   "source": "delayed quote (yahoo fast_info (delayed))"
  },
  "labels": {
@@ -46,116 +46,116 @@
   },
   "B": {
    "label": "Bogle Immediate",
-   "total_sar": 197781.99,
+   "total_sar": 197368.9,
    "cash_sar": 4563.56,
    "contributions_sar": 0,
    "net_invested_sar": 200000,
-   "pnl_sar": -2218.01,
-   "return_pct": -1.109,
+   "pnl_sar": -2631.1,
+   "return_pct": -1.316,
    "holdings": [
     {
      "ticker": "VTI",
      "name": "Vanguard Morningstar Total Stock Market ETF",
      "qty": 123.0,
-     "price": 375.84,
+     "price": 374.91,
      "ccy": "USD",
-     "price_asof": "2026-09-29T09:46:16+00:00",
+     "price_asof": "2026-09-29T18:17:46+00:00",
      "price_source": "delayed quote (yahoo fast_info (delayed))",
-     "fx": 3.7545,
-     "value_sar": 173564.23
+     "fx": 3.7548,
+     "value_sar": 173148.58
     },
     {
      "ticker": "SGOV",
      "name": "iShares 0-3 Month Treasury Bond ETF",
      "qty": 52.0,
-     "price": 100.67,
+     "price": 100.675,
      "ccy": "USD",
-     "price_asof": "2026-09-29T09:46:16+00:00",
+     "price_asof": "2026-09-29T18:17:46+00:00",
      "price_source": "delayed quote (yahoo fast_info (delayed))",
-     "fx": 3.7545,
-     "value_sar": 19654.21
+     "fx": 3.7548,
+     "value_sar": 19656.75
     }
    ],
    "weights": {
-    "VTI": 0.8776,
-    "SGOV": 0.0994,
+    "VTI": 0.8773,
+    "SGOV": 0.0996,
     "CASH": 0.0231
    }
   },
   "C": {
    "label": "Bogle Phased",
-   "total_sar": 198886.91,
+   "total_sar": 198682.05,
    "cash_sar": 102983.24,
    "contributions_sar": 0,
    "net_invested_sar": 200000,
-   "pnl_sar": -1113.09,
-   "return_pct": -0.557,
+   "pnl_sar": -1317.95,
+   "return_pct": -0.659,
    "holdings": [
     {
      "ticker": "VTI",
      "name": "Vanguard Morningstar Total Stock Market ETF",
      "qty": 61.0,
-     "price": 375.84,
+     "price": 374.91,
      "ccy": "USD",
-     "price_asof": "2026-09-29T09:46:16+00:00",
+     "price_asof": "2026-09-29T18:17:46+00:00",
      "price_source": "delayed quote (yahoo fast_info (delayed))",
-     "fx": 3.7545,
-     "value_sar": 86076.57
+     "fx": 3.7548,
+     "value_sar": 85870.44
     },
     {
      "ticker": "SGOV",
      "name": "iShares 0-3 Month Treasury Bond ETF",
      "qty": 26.0,
-     "price": 100.67,
+     "price": 100.675,
      "ccy": "USD",
-     "price_asof": "2026-09-29T09:46:16+00:00",
+     "price_asof": "2026-09-29T18:17:46+00:00",
      "price_source": "delayed quote (yahoo fast_info (delayed))",
-     "fx": 3.7545,
-     "value_sar": 9827.1
+     "fx": 3.7548,
+     "value_sar": 9828.38
     }
    ],
    "weights": {
-    "VTI": 0.4328,
-    "SGOV": 0.0494,
-    "CASH": 0.5178
+    "VTI": 0.4322,
+    "SGOV": 0.0495,
+    "CASH": 0.5183
    }
   },
   "D": {
    "label": "Bogle-Plus Agent",
-   "total_sar": 198011.06,
+   "total_sar": 197641.89,
    "cash_sar": 23136.81,
    "contributions_sar": 0,
    "net_invested_sar": 200000,
-   "pnl_sar": -1988.94,
-   "return_pct": -0.994,
+   "pnl_sar": -2358.11,
+   "return_pct": -1.179,
    "holdings": [
     {
      "ticker": "VTI",
      "name": "Vanguard Morningstar Total Stock Market ETF",
      "qty": 110.0,
-     "price": 375.84,
+     "price": 374.91,
      "ccy": "USD",
-     "price_asof": "2026-09-29T09:46:16+00:00",
+     "price_asof": "2026-09-29T18:17:46+00:00",
      "price_source": "delayed quote (yahoo fast_info (delayed))",
-     "fx": 3.7545,
-     "value_sar": 155220.04
+     "fx": 3.7548,
+     "value_sar": 154848.33
     },
     {
      "ticker": "SGOV",
      "name": "iShares 0-3 Month Treasury Bond ETF",
      "qty": 52.0,
-     "price": 100.67,
+     "price": 100.675,
      "ccy": "USD",
-     "price_asof": "2026-09-29T09:46:16+00:00",
+     "price_asof": "2026-09-29T18:17:46+00:00",
      "price_source": "delayed quote (yahoo fast_info (delayed))",
-     "fx": 3.7545,
-     "value_sar": 19654.21
+     "fx": 3.7548,
+     "value_sar": 19656.75
     }
    ],
    "weights": {
-    "VTI": 0.7839,
-    "SGOV": 0.0993,
-    "CASH": 0.1168
+    "VTI": 0.7835,
+    "SGOV": 0.0995,
+    "CASH": 0.1171
    }
   }
  },
@@ -321,7 +321,7 @@
    },
    {
     "date": "2026-09-29",
-    "total_sar": 197718.88
+    "total_sar": 197332.95
    }
   ],
   "C": [
@@ -403,7 +403,7 @@
    },
    {
     "date": "2026-09-29",
-    "total_sar": 198855.6
+    "total_sar": 198664.21
    }
   ],
   "D": [
@@ -485,23 +485,23 @@
    },
    {
     "date": "2026-09-29",
-    "total_sar": 197954.29
+    "total_sar": 197609.36
    }
   ]
  },
  "pending_orders": [],
  "data_freshness": {
-  "VTI": "2026-09-28",
-  "ITOT": "2026-09-28",
-  "VOO": "2026-09-28",
-  "IVV": "2026-09-28",
-  "SPYM": "2026-09-28",
-  "SCHB": "2026-09-28",
-  "SGOV": "2026-09-28",
-  "BIL": "2026-09-28",
-  "USFR": "2026-09-28",
-  "SHV": "2026-09-28",
-  "KSA": "2026-09-28",
+  "VTI": "2026-09-29",
+  "ITOT": "2026-09-29",
+  "VOO": "2026-09-29",
+  "IVV": "2026-09-29",
+  "SPYM": "2026-09-29",
+  "SCHB": "2026-09-29",
+  "SGOV": "2026-09-29",
+  "BIL": "2026-09-29",
+  "USFR": "2026-09-29",
+  "SHV": "2026-09-29",
+  "KSA": "2026-09-29",
   "9412.SR": "2026-09-29",
   "9413.SR": "2026-09-29",
   "9400.SR": "2026-09-29",
@@ -519,14 +519,14 @@
   "SAR=X": "2026-09-29",
   "BZ=F": "2026-09-29",
   "CL=F": "2026-09-29",
-  "^TNX": "2026-09-28",
-  "^IRX": "2026-09-28",
-  "MSFT": "2026-09-28",
-  "V": "2026-09-28",
-  "ISRG": "2026-09-28",
-  "COST": "2026-09-28",
-  "NVDA": "2026-09-28",
-  "LLY": "2026-09-28",
+  "^TNX": "2026-09-29",
+  "^IRX": "2026-09-29",
+  "MSFT": "2026-09-29",
+  "V": "2026-09-29",
+  "ISRG": "2026-09-29",
+  "COST": "2026-09-29",
+  "NVDA": "2026-09-29",
+  "LLY": "2026-09-29",
   "UST3M": "2026-09-28",
   "UST2Y": "2026-09-28",
   "UST10Y": "2026-09-28"
