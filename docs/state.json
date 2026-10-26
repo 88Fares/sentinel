@@ -1,9 +1,9 @@
 {
- "generated_at_utc": "2026-10-26T18:53:00+00:00",
+ "generated_at_utc": "2026-10-26T19:08:10+00:00",
  "start_capital_sar": 200000,
  "fx": {
   "rate": 3.752,
-  "as_of": "2026-10-26T18:52:32+00:00",
+  "as_of": "2026-10-26T19:07:40+00:00",
   "source": "delayed quote (yahoo fast_info (delayed))"
  },
  "labels": {
@@ -46,110 +46,110 @@
   },
   "B": {
    "label": "Bogle Immediate",
-   "total_sar": 197539.89,
+   "total_sar": 197468.74,
    "cash_sar": 4563.56,
    "contributions_sar": 0,
    "net_invested_sar": 200000,
-   "pnl_sar": -2460.11,
-   "return_pct": -1.23,
+   "pnl_sar": -2531.26,
+   "return_pct": -1.266,
    "holdings": [
     {
      "ticker": "VTI",
      "name": "Vanguard Morningstar Total Stock Market ETF",
      "qty": 123.0,
-     "price": 375.59,
+     "price": 375.44,
      "ccy": "USD",
-     "price_asof": "2026-10-26T18:52:32+00:00",
+     "price_asof": "2026-10-26T19:07:40+00:00",
      "price_source": "delayed quote (yahoo fast_info (delayed))",
      "fx": 3.752,
-     "value_sar": 173333.28
+     "value_sar": 173264.06
     },
     {
      "ticker": "SGOV",
      "name": "iShares 0-3 Month Treasury Bond ETF",
      "qty": 52.0,
-     "price": 100.6799,
+     "price": 100.67,
      "ccy": "USD",
-     "price_asof": "2026-10-26T18:52:32+00:00",
+     "price_asof": "2026-10-26T19:07:40+00:00",
      "price_source": "delayed quote (yahoo fast_info (delayed))",
      "fx": 3.752,
-     "value_sar": 19643.05
+     "value_sar": 19641.12
     }
    ],
    "weights": {
-    "VTI": 0.8775,
-    "SGOV": 0.0994,
+    "VTI": 0.8774,
+    "SGOV": 0.0995,
     "CASH": 0.0231
    }
   },
   "C": {
    "label": "Bogle Phased",
-   "total_sar": 198766.8,
+   "total_sar": 198731.5,
    "cash_sar": 102983.24,
    "contributions_sar": 0,
    "net_invested_sar": 200000,
-   "pnl_sar": -1233.2,
-   "return_pct": -0.617,
+   "pnl_sar": -1268.5,
+   "return_pct": -0.634,
    "holdings": [
     {
      "ticker": "VTI",
      "name": "Vanguard Morningstar Total Stock Market ETF",
      "qty": 61.0,
-     "price": 375.59,
+     "price": 375.44,
      "ccy": "USD",
-     "price_asof": "2026-10-26T18:52:32+00:00",
+     "price_asof": "2026-10-26T19:07:40+00:00",
      "price_source": "delayed quote (yahoo fast_info (delayed))",
      "fx": 3.752,
-     "value_sar": 85962.03
+     "value_sar": 85927.7
     },
     {
      "ticker": "SGOV",
      "name": "iShares 0-3 Month Treasury Bond ETF",
      "qty": 26.0,
-     "price": 100.6799,
+     "price": 100.67,
      "ccy": "USD",
-     "price_asof": "2026-10-26T18:52:32+00:00",
+     "price_asof": "2026-10-26T19:07:40+00:00",
      "price_source": "delayed quote (yahoo fast_info (delayed))",
      "fx": 3.752,
-     "value_sar": 9821.53
+     "value_sar": 9820.56
     }
    ],
    "weights": {
-    "VTI": 0.4325,
+    "VTI": 0.4324,
     "SGOV": 0.0494,
-    "CASH": 0.5181
+    "CASH": 0.5182
    }
   },
   "D": {
    "label": "Bogle-Plus Agent",
-   "total_sar": 197793.37,
+   "total_sar": 197729.53,
    "cash_sar": 23136.81,
    "contributions_sar": 0,
    "net_invested_sar": 200000,
-   "pnl_sar": -2206.63,
-   "return_pct": -1.103,
+   "pnl_sar": -2270.47,
+   "return_pct": -1.135,
    "holdings": [
     {
      "ticker": "VTI",
      "name": "Vanguard Morningstar Total Stock Market ETF",
      "qty": 110.0,
-     "price": 375.59,
+     "price": 375.44,
      "ccy": "USD",
-     "price_asof": "2026-10-26T18:52:32+00:00",
+     "price_asof": "2026-10-26T19:07:40+00:00",
      "price_source": "delayed quote (yahoo fast_info (delayed))",
      "fx": 3.752,
-     "value_sar": 155013.5
+     "value_sar": 154951.6
     },
     {
      "ticker": "SGOV",
      "name": "iShares 0-3 Month Treasury Bond ETF",
      "qty": 52.0,
-     "price": 100.6799,
+     "price": 100.67,
      "ccy": "USD",
-     "price_asof": "2026-10-26T18:52:32+00:00",
+     "price_asof": "2026-10-26T19:07:40+00:00",
      "price_source": "delayed quote (yahoo fast_info (delayed))",
      "fx": 3.752,
-     "value_sar": 19643.05
+     "value_sar": 19641.12
     }
    ],
    "weights": {
