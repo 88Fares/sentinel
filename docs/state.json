@@ -1,9 +1,9 @@
 {
- "generated_at_utc": "2026-10-29T23:12:57+00:00",
+ "generated_at_utc": "2026-10-30T09:57:18+00:00",
  "start_capital_sar": 200000,
  "fx": {
   "rate": 3.7527,
-  "as_of": "2026-10-29T23:12:29+00:00",
+  "as_of": "2026-10-30T09:56:47+00:00",
   "source": "delayed quote (yahoo fast_info (delayed))"
  },
  "labels": {
@@ -59,7 +59,7 @@
      "qty": 123.0,
      "price": 378.24,
      "ccy": "USD",
-     "price_asof": "2026-10-29T23:12:29+00:00",
+     "price_asof": "2026-10-30T09:56:47+00:00",
      "price_source": "delayed quote (yahoo fast_info (delayed))",
      "fx": 3.7527,
      "value_sar": 174588.81
@@ -70,7 +70,7 @@
      "qty": 52.0,
      "price": 100.71,
      "ccy": "USD",
-     "price_asof": "2026-10-29T23:12:29+00:00",
+     "price_asof": "2026-10-30T09:56:47+00:00",
      "price_source": "delayed quote (yahoo fast_info (delayed))",
      "fx": 3.7527,
      "value_sar": 19652.59
@@ -97,7 +97,7 @@
      "qty": 61.0,
      "price": 378.24,
      "ccy": "USD",
-     "price_asof": "2026-10-29T23:12:29+00:00",
+     "price_asof": "2026-10-30T09:56:47+00:00",
      "price_source": "delayed quote (yahoo fast_info (delayed))",
      "fx": 3.7527,
      "value_sar": 86584.7
@@ -108,7 +108,7 @@
      "qty": 26.0,
      "price": 100.71,
      "ccy": "USD",
-     "price_asof": "2026-10-29T23:12:29+00:00",
+     "price_asof": "2026-10-30T09:56:47+00:00",
      "price_source": "delayed quote (yahoo fast_info (delayed))",
      "fx": 3.7527,
      "value_sar": 9826.29
@@ -135,7 +135,7 @@
      "qty": 110.0,
      "price": 378.24,
      "ccy": "USD",
-     "price_asof": "2026-10-29T23:12:29+00:00",
+     "price_asof": "2026-10-30T09:56:47+00:00",
      "price_source": "delayed quote (yahoo fast_info (delayed))",
      "fx": 3.7527,
      "value_sar": 156136.34
@@ -146,7 +146,7 @@
      "qty": 52.0,
      "price": 100.71,
      "ccy": "USD",
-     "price_asof": "2026-10-29T23:12:29+00:00",
+     "price_asof": "2026-10-30T09:56:47+00:00",
      "price_source": "delayed quote (yahoo fast_info (delayed))",
      "fx": 3.7527,
      "value_sar": 19652.59
@@ -352,6 +352,10 @@
    {
     "date": "2026-10-29",
     "total_sar": 200000
+   },
+   {
+    "date": "2026-10-30",
+    "total_sar": 200000
    }
   ],
   "B": [
@@ -546,6 +550,10 @@
    {
     "date": "2026-10-29",
     "total_sar": 198202.84
+   },
+   {
+    "date": "2026-10-30",
+    "total_sar": 198213.16
    }
   ],
   "C": [
@@ -740,6 +748,10 @@
    {
     "date": "2026-10-29",
     "total_sar": 199095.61
+   },
+   {
+    "date": "2026-10-30",
+    "total_sar": 199100.73
    }
   ],
   "D": [
@@ -934,6 +946,10 @@
    {
     "date": "2026-10-29",
     "total_sar": 198387.04
+   },
+   {
+    "date": "2026-10-30",
+    "total_sar": 198396.38
    }
   ]
  },
@@ -964,9 +980,9 @@
   "4013.SR": "2026-10-29",
   "2280.SR": "2026-10-29",
   "4190.SR": "2026-10-29",
-  "SAR=X": "2026-10-29",
-  "BZ=F": "2026-10-29",
-  "CL=F": "2026-10-29",
+  "SAR=X": "2026-10-30",
+  "BZ=F": "2026-10-30",
+  "CL=F": "2026-10-30",
   "^TNX": "2026-10-29",
   "^IRX": "2026-10-29",
   "MSFT": "2026-10-29",
