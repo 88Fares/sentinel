@@ -1,9 +1,9 @@
 {
- "generated_at_utc": "2026-11-14T00:59:41+00:00",
+ "generated_at_utc": "2026-11-14T10:19:15+00:00",
  "start_capital_sar": 200000,
  "fx": {
   "rate": 3.6781,
-  "as_of": "2026-11-14T00:59:09+00:00",
+  "as_of": "2026-11-14T10:18:44+00:00",
   "source": "delayed quote (yahoo fast_info (delayed))"
  },
  "labels": {
@@ -59,7 +59,7 @@
      "qty": 123.0,
      "price": 371.11,
      "ccy": "USD",
-     "price_asof": "2026-11-14T00:59:09+00:00",
+     "price_asof": "2026-11-14T10:18:44+00:00",
      "price_source": "delayed quote (yahoo fast_info (delayed))",
      "fx": 3.6781,
      "value_sar": 167892.5
@@ -70,7 +70,7 @@
      "qty": 52.0,
      "price": 100.56,
      "ccy": "USD",
-     "price_asof": "2026-11-14T00:59:09+00:00",
+     "price_asof": "2026-11-14T10:18:44+00:00",
      "price_source": "delayed quote (yahoo fast_info (delayed))",
      "fx": 3.6781,
      "value_sar": 19233.23
@@ -97,7 +97,7 @@
      "qty": 61.0,
      "price": 371.11,
      "ccy": "USD",
-     "price_asof": "2026-11-14T00:59:09+00:00",
+     "price_asof": "2026-11-14T10:18:44+00:00",
      "price_source": "delayed quote (yahoo fast_info (delayed))",
      "fx": 3.6781,
      "value_sar": 83263.76
@@ -108,7 +108,7 @@
      "qty": 26.0,
      "price": 100.56,
      "ccy": "USD",
-     "price_asof": "2026-11-14T00:59:09+00:00",
+     "price_asof": "2026-11-14T10:18:44+00:00",
      "price_source": "delayed quote (yahoo fast_info (delayed))",
      "fx": 3.6781,
      "value_sar": 9616.61
@@ -135,7 +135,7 @@
      "qty": 110.0,
      "price": 371.11,
      "ccy": "USD",
-     "price_asof": "2026-11-14T00:59:09+00:00",
+     "price_asof": "2026-11-14T10:18:44+00:00",
      "price_source": "delayed quote (yahoo fast_info (delayed))",
      "fx": 3.6781,
      "value_sar": 150147.77
@@ -146,7 +146,7 @@
      "qty": 52.0,
      "price": 100.56,
      "ccy": "USD",
-     "price_asof": "2026-11-14T00:59:09+00:00",
+     "price_asof": "2026-11-14T10:18:44+00:00",
      "price_source": "delayed quote (yahoo fast_info (delayed))",
      "fx": 3.6781,
      "value_sar": 19233.23
